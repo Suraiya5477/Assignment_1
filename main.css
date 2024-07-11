@@ -251,3 +251,46 @@
     margin-top: 100px;
 }
 /* section five ended */
+
+
+/* footer started */
+
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left {
+    flex: 1; 
+}
+
+.footer-right {
+    flex: 1; 
+    text-align: right;
+}
+
+.footer-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.social-icon {
+    margin-left: 10px; 
+}
+
+.social-icon img {
+    width: 30px; 
+    height: auto;
+}
+
