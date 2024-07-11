@@ -1,4 +1,45 @@
-.headtag{
-    background-image: url("./assets/Hero-bg.png");
-    background-size: cover;
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.headtag {
+    height: 450px; 
+    background-image: url("./assets/Group.png"),url("./assets/Hero-bg.png");
+    background-size: contain, cover;
+    background-position: top 20px center, center; 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: 175px 175px, cover;
+}
+
+.headtxt{
+    text-align: center;
+}
+
+
+.headbut{
+    text-align: center;
+
+    /* display: inline-block; */
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+}
+
+.headcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
 }
