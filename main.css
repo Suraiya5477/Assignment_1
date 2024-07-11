@@ -26,7 +26,7 @@
 .headbut{
     text-align: center;
 
-    /* display: inline-block; */
+    display: inline;
             padding: 10px 20px;
             background-color: #000;
             color: #fff;
@@ -43,3 +43,72 @@
     height: 100%;
     gap: 30px;
 }
+
+
+/* second section main body started */
+
+.main_co{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+.mainheadh{
+    text-align: center;
+}
+.mainheadp{
+    text-align: center;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    flex-direction: row;
+}
+
+
+.cardtxt{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    margin-top: 40px;
+    
+
+}
+
+.cardbut{
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content; 
+
+}
+
+
+/* second section ended  */
+
+
+
+
+/* sectino three started */
+
+
+
+
+/* section three ended  */
